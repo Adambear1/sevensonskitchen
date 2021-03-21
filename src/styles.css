@@ -1,0 +1,432 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Playfair+Display:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@1&display=swap');
+* {
+  font-family: "Noto Serif", serif;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover {
+  text-decoration-color: white;
+  color: whitesmoke;
+}
+
+body {
+  background-color: #2d2013;
+}
+.header {
+  position:relative;
+  background-color: #493521;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  padding: 0;
+}
+
+.header h2 {
+    font-size: 75px;
+    padding: 0;
+    text-align: center;
+    font-family: 'IM Fell Double Pica', cursive;
+    color: white;
+
+}
+
+.d-block {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.logo-sevensons, .logo-sevensons-image{
+  position: absolute;
+  z-index: 100;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: -305px !important;
+  background-position: center;
+  background-size: 1400px;
+  object-fit: cover;
+  object-position: center;
+}
+.logo-sevensons {
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  background-color: white;
+
+  border: 3.5px solid rgb(101,186,44);
+}
+
+.logo-sevensons:hover{
+    opacity: 50%;
+}
+
+.logo-sevensons-image {
+
+  height: 705px;
+  width: 705px;
+
+  top: 0px;
+}
+
+
+
+@media (max-width: 1400px) {
+  .swiper-container {
+    display: none;
+  }
+  .header li {
+    font-size: 40px;
+  }
+  .header li:nth-of-type(1) {
+    padding-left: 75px;
+  }
+  .logo-sevensons,.logo-sevensons-image  {
+    margin-left: 370px !important;
+  }
+  /* {
+      margin-left: 340px !important
+  } */
+  
+
+  .about {
+    padding-left: 290px !important;
+    width: 100%;
+    border: none;
+  }
+  .contact-icons {
+    padding-left: 140px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 1243px) {
+  .logo-sevensons, .logo-sevensons-image {
+    /* margin-left: 315px !important; */
+    margin-left: 50%
+  }
+  
+  .header li:nth-of-type(1) {
+    padding-left: 125px;
+  }
+  .header li {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 305px !important;
+  }
+  
+  .header li {
+    font-size: 30px;
+  }
+  .header li:nth-of-type(1) {
+    padding-left: 105px;
+  }
+  .contact-icons {
+    padding-left: 45px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 1119px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 265px !important;
+  }
+  
+  .header li {
+    font-size: 30px;
+  }
+  .header li:nth-of-type(1) {
+    padding-left: 65px;
+  }
+  .about {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1079px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 245px !important;
+  }
+  
+  .header li {
+    font-size: 25px;
+  }
+  .header li:nth-of-type(1) {
+    padding-left: 75px;
+  }
+}
+@media (max-width: 1012px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 210px !important;
+  }
+  
+  .header li:nth-of-type(1) {
+    padding-left: 45px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about {
+    padding-left: 447px !important;
+    width: 150%;
+    border: none;
+  }
+  .contact-icons {
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 982px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 205px !important;
+  }
+  
+  .header li {
+    font-size: 22px;
+  }
+  .header li:nth-of-type(1) {
+    padding-left: 65px;
+  }
+}
+
+@media (max-width: 956px) {
+  .header li:nth-of-type(1) {
+    padding-left: 45px;
+  }
+}
+@media (max-width: 936px) {
+  .header li:nth-of-type(1) {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 921px) {
+  .logo-sevensons, .logo-sevensons-image {
+    height: 500px;
+    width: 500px;
+    background-size: 1255px;
+  }
+  .header li {
+    font-size: 35px;
+  }
+  .header li:nth-of-type(1) {
+    padding-left: 80px;
+  }
+  .header li:nth-of-type(2) {
+    padding-right: 200px;
+  }
+  .header li:nth-of-type(3) {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 896px) {
+  .logo-sevensons, .logo-sevensons-image {
+    height: 500px;
+    width: 500px;
+    background-size: 1255px;
+  }
+}
+@media (max-width: 916px) {
+  .logo-sevensons, .logo-sevensons-image {
+    height: 500px;
+    width: 500px;
+    background-size: 1255px;
+    margin-left: 175px !important;
+  }
+  .header li:nth-of-type(1) {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 916px) {
+  .header li:nth-of-type(1) {
+    padding-left: 60px;
+  }
+  .header li:nth-of-type(2) {
+    padding-right: 175px;
+  }
+}
+@media (max-width: 851px) {
+  .carousel-item {
+    height: 345px;
+  }
+  .logo-sevensons, .logo-sevensons-image {
+    height: 400px;
+    width: 400px;
+    background-size: 1055px;
+    margin-left: 205px !important;
+  }
+  .header li:nth-of-type(1) {
+    padding-left: 60px;
+  }
+  .header li {
+    font-size: 30px;
+  }
+  .header li:nth-of-type(2) {
+    padding-right: 215px;
+  }
+}
+@media (max-width: 814px) {
+  .header li:nth-of-type(1) {
+    padding-left: 80px;
+  }
+  .header li {
+    font-size: 27px;
+  }
+  .header li:nth-of-type(2) {
+    padding-right: 215px;
+  }
+}
+@media (max-width: 814px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 185px !important;
+  }
+  
+  .header li:nth-of-type(1) {
+    padding-left: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 165px !important;
+  }
+  
+  .header li:nth-of-type(1) {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 758px) {
+  .header li:nth-of-type(1) {
+    padding-left: 30px;
+  }
+  .about {
+    padding-left: 195px !important;
+  }
+  .about p {
+    width: 140%;
+  }
+  .contact-icons {
+    display: none;
+  }
+}
+@media (max-width: 738px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 135px !important;
+  }
+  
+  .header li:nth-of-type(1) {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 718px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 135px !important;
+  }
+  
+  .header li:nth-of-type(1) {
+    padding-left: 10px;
+  }
+  .header li:nth-of-type(2) {
+    padding-right: 200px;
+  }
+}
+@media (max-width: 703px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 125px !important;
+  }
+  
+  .header li:nth-of-type(1) {
+    padding-left: 10px;
+  }
+  .header li:nth-of-type(2) {
+    padding-right: 190px;
+  }
+}
+@media (max-width: 694px) {
+  .carousel-item {
+    height: 255px;
+  }
+  .logo-sevensons, .logo-sevensons-image {
+    height: 300px;
+    width: 300px;
+    background-size: 728px;
+    margin-left: 175px !important;
+  }
+  .header ul {
+    padding: 20px 0;
+  }
+  .header a {
+    font-size: 25px !important;
+  }
+  .header li:nth-of-type(2) {
+    padding-right: 190px;
+  }
+  .header li:nth-of-type(1) {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 694px) {
+  .header a {
+    font-size: 22px !important;
+  }
+}
+@media (max-width: 623px) {
+  .header li:nth-of-type(1) {
+    padding-left: 30px;
+  }
+  .header li:nth-of-type(2) {
+    padding-right: 140px;
+  }
+  .logo-sevensons, .logo-sevensons-image {
+    height: 300px;
+    width: 300px;
+    background-size: 728px;
+    margin-left: 125px !important;
+  }
+}
+@media (max-width: 586px) {
+  .header li:nth-of-type(1) {
+    padding-left: 20px;
+  }
+  .header li:nth-of-type(2) {
+    padding-right: 140px;
+  }
+}
+@media (max-width: 576px) {
+  .header ul {
+    text-align: center;
+    padding-top: 60px;
+  }
+  .header li {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 5px !important;
+  }
+}
+
+@media (max-width: 466px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 60px !important;
+  }
+  
+  .about,
+  form {
+    display: none;
+  }
+  .contact {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 376px) {
+  .logo-sevensons, .logo-sevensons-image {
+    margin-left: 35px !important;
+  }
+  
+}
